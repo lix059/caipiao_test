@@ -71,7 +71,6 @@ function calArr(drArr, dvArr) {
     flag = false;
     for(let j=0; j<drArr.length; j++) {
       if(drArr[j]%dvArr[i] === 0) {
-        console.log(drArr[j], dvArr[i]);
         flag = true;
         break;
       }
